@@ -1,0 +1,54 @@
+.page {
+  height: 100%;
+}
+
+.intro {
+  font-size: 72px;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+.intro:nth-child(2) {
+  font-size: 48px;
+}
+
+.intro:nth-child(3) {
+  font-size: 48px;
+  font-family: Roboto Mono;
+}
+
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.5s; 
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%; 
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(16deg);
+  }
+  40% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

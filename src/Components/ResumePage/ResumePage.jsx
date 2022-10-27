@@ -55,7 +55,7 @@ function ResumePage() {
           style={{ textAlign: "left", marginLeft: "8px", fontWeight: "bolder" }}
         >
           Kenzie Academy, SNHU | Hands-On, Project-Based Training
-          <span className="floater">Indianapolis, IN (remote)</span>
+          <span style={{ float: "right" }}>Indianapolis, IN (remote)</span>
           <br />
           Full Stack Web Development | GPA: 4.0
           <span style={{ float: "right" }}>Graduated: Oct. 2022</span>

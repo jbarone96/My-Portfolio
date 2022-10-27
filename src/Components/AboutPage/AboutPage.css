@@ -22,3 +22,23 @@
   font-family: Rubik;
  }
 
+ .swiper {
+  height: 400px;
+  width: 800px;
+  margin-top: 30px;  
+  justify-content: left;
+  box-shadow: 0px 0px 20px 5px rgba(240, 248, 255, 0.626);
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.swiper-image {
+  height: 400px;
+  width: 800px;
+  border-radius: 10px;
+ }
+

@@ -12,17 +12,17 @@ function ContactPage() {
           Contact Me
         </Card.Title>
         <Card.Text className="contact-info">
-          <div>
+          <div className="contact-subtitle">
             <strong>Email Address</strong>
             <br />
             j.barone024@gmail.com
           </div>
-          <div>
+          <div className="contact-subtitle">
             <strong>Mobile Number</strong>
             <br />
             (919) 924-6834
           </div>
-          <div>
+          <div className="contact-subtitle">
             <strong>LinkedIn</strong>
             <br />
             <a href="https://www.linkedin.com/in/jordan-barone96/">

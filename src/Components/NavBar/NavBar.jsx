@@ -12,7 +12,13 @@ function NavBar() {
     <>
       <Navbar bg="dark" variant="dark" className="nav">
         <Container>
-          <Navbar.Brand className="title">Jordan's Portfolio</Navbar.Brand>
+          <Navbar.Brand className="title">
+            <Nav>
+              <Link className="nav-link" to="/">
+                Jordan's Portfolio
+              </Link>
+            </Nav>
+          </Navbar.Brand>
           <Nav className="nav-bar-group">
             <Link className="nav-link" to="/">
               <BiHomeAlt className="icon" />

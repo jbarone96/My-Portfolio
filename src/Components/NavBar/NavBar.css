@@ -26,6 +26,7 @@
 
 .nav-bar-group {
   position: relative;
-  right: -180px;
+  right: -170px;
+  gap: 10px;
 }
 

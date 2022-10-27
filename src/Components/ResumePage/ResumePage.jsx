@@ -1,9 +1,12 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
+import Particle from "../ReactParticles/Particle";
 import "../ResumePage/ResumePage.css";
+
 function ResumePage() {
   return (
     <>
+      <Particle />
       <Card className="resume-card">
         <Card.Title
           className="resume-title"

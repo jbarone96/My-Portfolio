@@ -1,10 +1,12 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "../ContactPage/ContactPage.css";
+import Particle from "../ReactParticles/Particle";
 
 function ContactPage() {
   return (
     <>
+      <Particle />
       <Card className="contact-card">
         <Card.Title className="contact-title" style={{ fontSize: "28px" }}>
           Contact Me

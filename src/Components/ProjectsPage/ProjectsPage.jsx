@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import SwiperCore, { EffectCreative, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Particle from "../ReactParticles/Particle";
 import "../ProjectsPage/ProjectsPage.css";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
@@ -314,6 +315,7 @@ function ProjectsPage() {
           View Code on Github
         </Button>
       </div>
+      <Particle />
     </>
   );
 }

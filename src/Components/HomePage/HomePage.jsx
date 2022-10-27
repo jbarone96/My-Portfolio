@@ -1,5 +1,6 @@
 import React from "react";
 import "../HomePage/HomePage.css";
+import Particle from "../ReactParticles/Particle";
 
 function HomePage() {
   let date = new Date();
@@ -16,6 +17,7 @@ function HomePage() {
 
   return (
     <>
+      <Particle />
       <div className="page">
         <div className="intro-section">
           <h1 className="intro">{displayTimeOfDay()}</h1>

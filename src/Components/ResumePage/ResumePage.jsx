@@ -15,7 +15,13 @@ function ResumePage() {
           Jordan Barone
         </Card.Title>
         <Card.Body className="resume-info">
-          <div style={{ fontSize: "24px", marginBottom: "10px" }}>
+          <div
+            style={{
+              fontSize: "24px",
+              marginBottom: "10px",
+              marginTop: "-20px",
+            }}
+          >
             Full Stack Software Developer
           </div>
           <div>Apex, NC 27502 | j.barone024@gmail.com | (919) 924-6834</div>
@@ -51,17 +57,15 @@ function ResumePage() {
           Kenzie Academy, SNHU | Hands-On, Project-Based Training
           <span className="floater">Indianapolis, IN (remote)</span>
           <br />
-          Full Stack Web Development
+          Full Stack Web Development | GPA: 4.0
           <span style={{ float: "right" }}>Graduated: Oct. 2022</span>
         </Card.Body>
         <Card.Body
           className="resume-info"
           style={{ textAlign: "left", marginTop: "-30px", marginLeft: "20px" }}
         >
-          - JavaScript, HTML/CSS and React <br />
-          - Learned valuable skills and proper ways to write clean, readable,
-          and organized code
-          <br />- GPA: 4.0
+          - Became proficient in JavaScript, HTML/CSS, and the MERN stack and
+          learned how to properly write clean, readable and organized code
         </Card.Body>
         <Card.Body
           className="resume-info"
@@ -75,14 +79,14 @@ function ResumePage() {
           East Carolina University
           <span style={{ float: "right" }}>Greenville, NC</span>
           <br />
-          Bachelor of Science - Criminal Justice
-          <span style={{ float: "right" }}>Graduated: May, 2019</span>
+          Bachelor of Science - Criminal Justice | GPA: 3.7
+          <span style={{ float: "right" }}>Graduated: May 2019</span>
         </Card.Body>
         <Card.Body
           className="resume-info"
           style={{ textAlign: "left", marginTop: "-30px", marginLeft: "20px" }}
         >
-          - Dean’s List for multiple semesters consecutively <br />- GPA: 3.7
+          - Dean’s List for multiple semesters consecutively
         </Card.Body>
         <Card.Body
           className="resume-info"
@@ -93,19 +97,18 @@ function ResumePage() {
             marginTop: "-20px",
           }}
         >
-          Blue Line Aviation
+          Blue Line Aviation | Strenuous, Fast-Paced Aviation Program
           <span style={{ float: "right" }}>Raleigh, NC</span>
           <br />
           Commercial Pilot's License and Certified Flight Instructor
-          <span style={{ float: "right" }}>Graduated: Mar., 2020</span>
+          <span style={{ float: "right" }}>Graduated: Mar. 2020</span>
         </Card.Body>
         <Card.Body
           className="resume-info"
           style={{ textAlign: "left", marginTop: "-30px", marginLeft: "20px" }}
         >
-          - Strenuous and fast-paced aviation school program <br />- Passed
-          oral, written, and practical tests to receive a Commercial Pilot and
-          Certified Flight Instructor License
+          - Passed necessary oral, written, and practical tests to receive a
+          Commercial Pilot and Certified Flight Instructor License
         </Card.Body>
         <Card.Subtitle
           className="resume-info"
@@ -160,6 +163,30 @@ function ResumePage() {
         >
           Technical Projects
         </Card.Subtitle>
+        <Card.Body
+          className="resume-info"
+          style={{ textAlign: "left", marginLeft: "8px", fontWeight: "bolder" }}
+        >
+          ReactWeather | Personal Project | <em>React/TailwindCSS</em>
+          <span style={{ float: "right" }}>Oct. 2022</span>
+          <br />
+          <Card.Link href="https://react-weather-app-eta-nine.vercel.app/">
+            Visit Website
+          </Card.Link>
+        </Card.Body>
+        <Card.Body
+          className="resume-info"
+          style={{ textAlign: "left", marginTop: "-20px", marginLeft: "20px" }}
+        >
+          - Created a live weather application that uses an API call to get
+          various weather deatails for city chosen by the user. <br />- The user
+          can choose from the list of popular cities, search for a city anywhere
+          in the world, or allow the application to get the user's current
+          location to display weather data. <br />- Application shows toast
+          notifications using react-toastify to inform the user when the
+          application is getting the user's location and when the weather data
+          has been successfully loaded.
+        </Card.Body>
         <Card.Body
           className="resume-info"
           style={{ textAlign: "left", marginLeft: "8px", fontWeight: "bolder" }}
@@ -226,7 +253,7 @@ function ResumePage() {
           <em>React.js, Express, Node.js, MongoDB (Deployed Using AWS)</em>
           <span style={{ float: "right" }}>Oct. 2022</span>
           <br />
-          <Card.Link href="http://18.233.97.130/">View on Github</Card.Link>
+          <Card.Link href="http://18.233.97.130/">Visit Website</Card.Link>
         </Card.Body>
         <Card.Body
           className="resume-info"

@@ -98,7 +98,7 @@ function AboutPage() {
               away!
             </p>
             <img
-              src="Images/andromeda_galaxy.jpg"
+              src="Images/andromeda_galaxy.JPG"
               className="swiper-image"
               alt=""
             />

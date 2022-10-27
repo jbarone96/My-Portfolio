@@ -16,6 +16,104 @@ function ProjectsPage() {
         className="projects-title"
         style={{ marginBottom: "-10px", fontSize: "32px", marginTop: "20px" }}
       >
+        ReactWeather
+      </div>
+      <Swiper
+        effect={"creative"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        creativeEffect={{
+          prev: {
+            shadow: true,
+            translate: [0, 0, -400],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
+        }}
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[EffectCreative]}
+        navigation={true}
+        loop={true}
+        className="swiper"
+      >
+        <SwiperSlide className="swiper-slide">
+          <img
+            className="swiper-image"
+            src="/Images/react-weather.png"
+            alt=""
+            style={{ height: "600px" }}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            className="swiper-image"
+            src="Images/react-weather2.png"
+            alt=""
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            className="swiper-image"
+            src="Images/react-weather3.png"
+            alt=""
+            style={{ height: "475px" }}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            className="swiper-image"
+            src="Images/react-weather4.png"
+            alt=""
+            style={{
+              height: "450px",
+              width: "90%",
+              scale: "1.12",
+              marginLeft: "40px",
+            }}
+          />
+        </SwiperSlide>
+      </Swiper>
+      <div
+        className="projects-info"
+        style={{ marginTop: "10px", fontSize: "24px", marginBottom: "10px" }}
+      >
+        React/TailwindCSS
+      </div>
+      <div
+        className="projects-info"
+        style={{
+          fontSize: "18px",
+          width: "750px",
+          margin: "auto",
+          marginBottom: "10px",
+        }}
+      >
+        ReactWeather is a weather application that allows the user to choose
+        from the list of some popular cities, search for a specific city, or
+        allow the application to get the weather for the user's current
+        location. This application uses an API call that returns data that is
+        displayed for the user. Some of the features of this application are but
+        are not limited to the humidity, 'feels like' temperature, wind speed
+        and future forecasts for the selected area. The application was styled
+        solely with TailwindCSS and does include notifications using
+        react-toastify.
+      </div>
+      <div className="projects-button">
+        <Button
+          variant="success"
+          href="https://react-weather-app-eta-nine.vercel.app/"
+        >
+          Visit Website
+        </Button>
+      </div>
+      <div
+        className="projects-title"
+        style={{ marginBottom: "-10px", fontSize: "32px", marginTop: "20px" }}
+      >
         Top Eats
       </div>
       <Swiper

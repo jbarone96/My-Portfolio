@@ -2,6 +2,12 @@
   height: 100%;
 }
 
+.intro-section {
+  text-align: justify;
+  padding: 150px;
+  font-family: Rubik;
+}
+
 .intro {
   font-size: 72px;
   margin-top: 20px;

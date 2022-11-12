@@ -22,10 +22,12 @@
 
 .nav {
   font-family: Rubik;
+  max-width: 100%;
 }
 
 .nav-bar-group {
   position: relative;
+  float: right;
   right: -170px;
   gap: 10px;
 }

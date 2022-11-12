@@ -14,7 +14,12 @@ function ProjectsPage() {
     <>
       <div
         className="projects-title"
-        style={{ marginBottom: "-10px", fontSize: "32px", marginTop: "20px" }}
+        style={{
+          marginBottom: "-10px",
+          fontSize: "32px",
+          marginTop: "20px",
+          width: "100%",
+        }}
       >
         ReactWeather
       </div>
@@ -39,13 +44,14 @@ function ProjectsPage() {
         navigation={true}
         loop={true}
         className="swiper"
+        style={{ width: "100%" }}
       >
         <SwiperSlide className="swiper-slide">
           <img
             className="swiper-image"
             src="/Images/react-weather.png"
             alt=""
-            style={{ height: "600px" }}
+            style={{ height: "600px", width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -53,6 +59,7 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/react-weather2.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -60,7 +67,7 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/react-weather3.png"
             alt=""
-            style={{ height: "475px" }}
+            style={{ height: "475px", width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -70,16 +77,22 @@ function ProjectsPage() {
             alt=""
             style={{
               height: "450px",
-              width: "90%",
+              maxWidth: "90%",
               scale: "1.12",
               marginLeft: "40px",
+              width: "100%",
             }}
           />
         </SwiperSlide>
       </Swiper>
       <div
         className="projects-info"
-        style={{ marginTop: "10px", fontSize: "24px", marginBottom: "10px" }}
+        style={{
+          marginTop: "10px",
+          fontSize: "24px",
+          marginBottom: "10px",
+          width: "100%",
+        }}
       >
         React/TailwindCSS
       </div>
@@ -87,20 +100,20 @@ function ProjectsPage() {
         className="projects-info"
         style={{
           fontSize: "18px",
-          width: "750px",
+          maxWidth: "750px",
           margin: "auto",
           marginBottom: "10px",
+          width: "100%",
         }}
       >
         ReactWeather is a weather application that allows the user to choose
         from the list of some popular cities, search for a specific city, or
         allow the application to get the weather for the user's current
         location. This application uses an API call that returns data that is
-        displayed for the user. Some of the features of this application are but
-        are not limited to the humidity, 'feels like' temperature, wind speed
-        and future forecasts for the selected area. The application was styled
-        solely with TailwindCSS and does include notifications using
-        react-toastify.
+        displayed for the user. Some of the features of this application are
+        humidity, 'feels like' temperature, wind speed and future forecasts for
+        the selected area. The application was styled solely with TailwindCSS
+        and does include notifications using react-toastify.
       </div>
       <div className="projects-button">
         <Button
@@ -112,7 +125,12 @@ function ProjectsPage() {
       </div>
       <div
         className="projects-title"
-        style={{ marginBottom: "-10px", fontSize: "32px", marginTop: "20px" }}
+        style={{
+          marginBottom: "-10px",
+          fontSize: "32px",
+          marginTop: "20px",
+          width: "100%",
+        }}
       >
         Top Eats
       </div>
@@ -137,32 +155,73 @@ function ProjectsPage() {
         navigation={true}
         loop={true}
         className="swiper"
+        style={{ width: "100%" }}
       >
         <SwiperSlide className="swiper-slide">
-          <img className="swiper-image" src="/Images/top_eats_2.png" alt="" />
+          <img
+            className="swiper-image"
+            src="/Images/top_eats_2.png"
+            alt=""
+            style={{ width: "100%" }}
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img className="swiper-image" src="Images/top_eats_3.png" alt="" />
+          <img
+            className="swiper-image"
+            src="Images/top_eats_3.png"
+            alt=""
+            style={{ width: "100%" }}
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img className="swiper-image" src="Images/top_eats_4.png" alt="" />
+          <img
+            className="swiper-image"
+            src="Images/top_eats_4.png"
+            alt=""
+            style={{ width: "100%" }}
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img className="swiper-image" src="Images/top_eats_5.png" alt="" />
+          <img
+            className="swiper-image"
+            src="Images/top_eats_5.png"
+            alt=""
+            style={{ width: "100%" }}
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img className="swiper-image" src="Images/top_eats_6.png" alt="" />
+          <img
+            className="swiper-image"
+            src="Images/top_eats_6.png"
+            alt=""
+            style={{ width: "100%" }}
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img className="swiper-image" src="Images/top_eats_7.png" alt="" />
+          <img
+            className="swiper-image"
+            src="Images/top_eats_7.png"
+            alt=""
+            style={{ width: "100%" }}
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-          <img className="swiper-image" src="Images/top_eats_8.png" alt="" />
+          <img
+            className="swiper-image"
+            src="Images/top_eats_8.png"
+            alt=""
+            style={{ width: "100%" }}
+          />
         </SwiperSlide>
       </Swiper>
       <div
         className="projects-info"
-        style={{ marginTop: "10px", fontSize: "24px", marginBottom: "10px" }}
+        style={{
+          marginTop: "10px",
+          fontSize: "24px",
+          marginBottom: "10px",
+          width: "100%",
+        }}
       >
         React/CSS/Node.js/Express/MongoDB
       </div>
@@ -170,9 +229,10 @@ function ProjectsPage() {
         className="projects-info"
         style={{
           fontSize: "18px",
-          width: "750px",
+          maxWidth: "750px",
           margin: "auto",
           marginBottom: "10px",
+          width: "100%",
         }}
       >
         Top Eats is a full-stack application that allows the user to discover
@@ -198,6 +258,7 @@ function ProjectsPage() {
           marginBottom: "-20px",
           marginTop: "50px",
           fontSize: "32px",
+          width: "100%",
         }}
       >
         Online Store
@@ -223,12 +284,14 @@ function ProjectsPage() {
         navigation={true}
         loop={true}
         className="swiper"
+        style={{ width: "100%" }}
       >
         <SwiperSlide className="swiper-slide">
           <img
             className="swiper-image"
             src="Images/online_store_9.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -236,6 +299,7 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/online_store_4.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -243,6 +307,7 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/online_store_3.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -250,6 +315,7 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/online_store_5.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -257,6 +323,7 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/online_store_1.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -264,6 +331,7 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/online_store_8.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -271,12 +339,18 @@ function ProjectsPage() {
             className="swiper-image"
             src="Images/online_store_7.png"
             alt=""
+            style={{ width: "100%" }}
           />
         </SwiperSlide>
       </Swiper>
       <div
         className="projects-info"
-        style={{ marginTop: "10px", fontSize: "24px", marginBottom: "10px" }}
+        style={{
+          marginTop: "10px",
+          fontSize: "24px",
+          marginBottom: "10px",
+          width: "100%",
+        }}
       >
         React/CSS/Node.js/Express/MongoDB
       </div>
@@ -284,16 +358,17 @@ function ProjectsPage() {
         className="projects-info"
         style={{
           fontSize: "18px",
-          width: "750px",
+          maxWidth: "750px",
           margin: "auto",
           marginBottom: "10px",
+          width: "100%",
         }}
       >
         This React built online store allows the user to shop for items, add the
         items to their cart, and checkout just like you would on Amazon or any
         other online store. This application uses form validation for the order
-        forms and once the order has been place, it gets sent to the database
-        and gives the user a confirmation of their order. Users are also able to
+        forms and once the order has been placed, it gets sent to the database
+        to give the user a confirmation of their order. Users are also able to
         filter by category or sort the items by price from high to low or low to
         high. Users can also utilize the search feature if they would like to
         search for a particular item in the store. International users are able
@@ -314,6 +389,7 @@ function ProjectsPage() {
           marginBottom: "-20px",
           marginTop: "50px",
           fontSize: "32px",
+          width: "100%",
         }}
       >
         Connect Four
@@ -339,6 +415,7 @@ function ProjectsPage() {
         navigation={true}
         loop={true}
         className="swiper"
+        style={{ width: "100%" }}
       >
         <SwiperSlide className="swiper-slide">
           <img
@@ -346,9 +423,10 @@ function ProjectsPage() {
             style={{
               scale: "0.6",
               height: "650px",
-              width: "600px",
+              maxWidth: "600px",
               marginTop: "-125px",
               marginLeft: "100px",
+              width: "100%",
             }}
             src="Images/connect_four_1.png"
             alt=""
@@ -360,9 +438,10 @@ function ProjectsPage() {
             style={{
               scale: "0.6",
               height: "650px",
-              width: "600px",
+              maxWidth: "600px",
               marginTop: "-125px",
               marginLeft: "100px",
+              width: "100%",
             }}
             src="Images/connect_four_3.png"
             alt=""
@@ -374,9 +453,10 @@ function ProjectsPage() {
             style={{
               scale: "0.6",
               height: "650px",
-              width: "600px",
+              maxWidth: "600px",
               marginTop: "-125px",
               marginLeft: "100px",
+              width: "100%",
             }}
             src="Images/connect_four_2.png"
             alt=""
@@ -385,7 +465,12 @@ function ProjectsPage() {
       </Swiper>
       <div
         className="projects-info"
-        style={{ marginTop: "10px", fontSize: "24px", marginBottom: "10px" }}
+        style={{
+          marginTop: "10px",
+          fontSize: "24px",
+          marginBottom: "10px",
+          width: "100%",
+        }}
       >
         JavaScript/CSS/HTML
       </div>
@@ -393,15 +478,16 @@ function ProjectsPage() {
         className="projects-info"
         style={{
           fontSize: "18px",
-          width: "750px",
+          maxWidth: "750px",
           margin: "auto",
           marginBottom: "10px",
+          width: "100%",
         }}
       >
         A classic game of Connect Four! Built exclusively using JavaScript and
         HTML/CSS to create a replica of the game Connect Four. Created logical
         functions to determine when a game has been won or tied as well as
-        allowing the play disks to stack instead of overlapping when placed into
+        allowing the play discs to stack instead of overlapping when placed into
         a column.
       </div>
       <div className="projects-button">

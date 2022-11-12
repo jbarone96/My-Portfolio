@@ -1,6 +1,6 @@
 .contact-card {
   height: 800px;
-  width: 800px;
+  max-width: 800px;
   margin: auto;
   margin-top: 30px;
   box-shadow: 0px 0px 20px 5px rgba(240, 248, 255, 0.626);

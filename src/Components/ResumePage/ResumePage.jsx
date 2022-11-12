@@ -20,6 +20,7 @@ function ResumePage() {
               fontSize: "24px",
               marginBottom: "10px",
               marginTop: "-20px",
+              width: "100%",
             }}
           >
             Full Stack Software Developer
@@ -46,6 +47,7 @@ function ResumePage() {
             marginLeft: "25px",
             borderBottom: "1px solid black",
             fontWeight: "bolder",
+            width: "100%",
           }}
         >
           Education

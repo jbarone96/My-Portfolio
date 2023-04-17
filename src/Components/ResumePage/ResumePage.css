@@ -47,6 +47,21 @@
   height: 40px;
 }
 
+.company_1 {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  bottom: 575px;
+}
+
+.company_2 {
+  position: absolute;
+  width:175px;
+  height: 85px;
+  margin-left: -10px;
+  bottom: 240px;
+}
+
 .floater {
   justify-content: right;
 }

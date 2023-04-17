@@ -289,7 +289,46 @@ function ResumePage() {
             fontWeight: "bolder",
           }}
         >
-          Kenzie Academy, SNHU
+          <img
+            className="company_1"
+            src="Images/Belk_logo_2010.svg.png"
+            alt=""
+          />
+          <span style={{ float: "right" }}>Charlotte, NC (Remote)</span>
+          <br />
+          <em>Associate Digital Producer</em>
+          <span style={{ float: "right" }}>Nov. 2022 - Present</span>
+        </Card.Body>
+        <Card.Body
+          className="resume-info"
+          style={{
+            textAlign: "left",
+            marginTop: "-30px",
+            marginLeft: "20px",
+            marginBottom: "20px",
+          }}
+        >
+          - Manage the development of the Belk website homepage, shop pages, the
+          Belk mobile app, coupon pages and any special content projects using
+          HTML/CSS and JavaScript. <br />- Collaborate with Merchant, Content
+          Strategy and Design teams to schedule and prepare HTML files with
+          image links, assortment links, alt tags and tracking/reporting tags
+          for all promotions to upload and configure into the Content Management
+          System. <br />- Apply expertise across multiple specializations within
+          the job area as well as assist in preparing and scheduling all
+          promotional events, offers, product content, and functional test on
+          belk.com. <br />- Partner with eCommerce IT Support teams to ensure
+          all scheduled content is tested each week for accuracy and timeliness.
+        </Card.Body>
+        <Card.Body
+          className="resume-info"
+          style={{
+            textAlign: "left",
+            marginLeft: "8px",
+            fontWeight: "bolder",
+          }}
+        >
+          <img className="company_2" src="Images/Kenzie.png" alt="" />
           <span style={{ float: "right" }}>Indianapolis, IN (Remote)</span>
           <br />
           <em>Software Development Coach</em>
@@ -310,41 +349,10 @@ function ResumePage() {
           within their code or collaborating and finding ways to improve or
           grasp certain concepts.
         </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-          }}
-        >
-          Amazon, See It Thru Logistics, LLC
-          <span style={{ float: "right" }}>Garner, NC</span>
-          <br />
-          <em>Dispatcher/Leadership</em>
-          <span style={{ float: "right" }}>Feb. 2021 - Present</span>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginTop: "-30px",
-            marginLeft: "20px",
-            marginBottom: "20px",
-          }}
-        >
-          - Pioneered an organization checklist and flow for Amazon drivers to
-          better organize their vans and mentored drivers to allow for more
-          efficient delivery of packages. <br />- Assisted in the development of
-          dispatcher job responsibilities which included a daily reconciliation
-          list for dispatchers to follow. <br />- Facilitated the process for
-          drivers to contact dispatchers with any problems out on the road and
-          created a new method for the drivers to use on the road.
-        </Card.Body>
         <Card.Body className="resume-info">
           <Button
             variant="primary"
-            href="https://docs.google.com/document/d/1Fkyp2SI7uupA2BUAR63AOMfiIsXRpFvy/export?format=pdf&ouid=112386261646175866280&rtpof=true&sd=true"
+            href="https://drive.google.com/uc?export=download&id=1052RO1JvMNezDqPVgsSO857lKzNnqbQG"
           >
             {" "}
             Download

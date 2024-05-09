@@ -14,342 +14,177 @@ function ResumePage() {
         >
           Jordan Barone
         </Card.Title>
-        <Card.Body className="resume-info">
-          <div
-            style={{
-              fontSize: "24px",
-              marginBottom: "10px",
-              marginTop: "-20px",
-              width: "100%",
-            }}
-          >
-            Full Stack Software Developer
+        <Card.Body className="resume-header">
+          <div>
+            <Card.Link href="https://www.linkedin.com/in/jordan-barone96/">
+              <img className="header-thumbnail" src="Images/linkedin.png" />
+              LinkedIn
+            </Card.Link>
+            &nbsp; | <img className="header-thumbnail" src="Images/phone.png" />
+            (919) 924-6834 |
+            <img className="header-thumbnail" src="Images/gmail.png" />
+            j.barone024@gmail.com |
+            <Card.Link href="https://github.com/jbarone96">
+              <img className="header-thumbnail" src="Images/github.png" />
+              Github
+            </Card.Link>
           </div>
-          <div>Apex, NC 27502 | j.barone024@gmail.com | (919) 924-6834</div>
-          <Card.Link href="https://www.linkedin.com/in/jordan-barone96/">
-            LinkedIn
-          </Card.Link>
-          <Card.Link href="https://github.com/jbarone96">Github</Card.Link>
         </Card.Body>
-        <Card.Body className="resume-info">
-          Motivated software developer with experience in problem solving and
-          computers. Eager to apply my leadership, organization, critical
-          thinking, and recent education of full-stack web development, with
-          emphasis on front-end development, to develop efficient and organized
-          code to improve code base and team thought process within a web
-          developer role.
+        <Card.Subtitle className="resume-subtitle">Skills</Card.Subtitle>
+        <Card.Body>
+          <ul className="list-items">
+            <li>
+              React | JavaScript | HTML/CSS | Node | Express | Bootstrap | Git |
+              Swift | Python | MongoDB | API Development
+            </li>
+            <li>
+              Interactive Design | Content Management | Website Analytics |
+              Mobile App Development | E-Commerce Management
+            </li>
+          </ul>
         </Card.Body>
-        <Card.Subtitle
-          className="resume-info"
-          style={{
-            fontSize: "22px",
-            textAlign: "left",
-            marginLeft: "25px",
-            borderBottom: "1px solid black",
-            fontWeight: "bolder",
-            width: "100%",
-          }}
-        >
-          Education
-        </Card.Subtitle>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginLeft: "8px", fontWeight: "bolder" }}
-        >
-          Kenzie Academy, SNHU | Hands-On, Project-Based Training
-          <span style={{ float: "right" }}>Indianapolis, IN (remote)</span>
-          <br />
-          Full Stack Web Development | GPA: 4.0
-          <span style={{ float: "right" }}>Graduated: Oct. 2022</span>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-30px", marginLeft: "20px" }}
-        >
-          - Became proficient in JavaScript, HTML/CSS, and the MERN stack and
-          learned how to properly write clean, readable and organized code
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-            marginTop: "-20px",
-          }}
-        >
-          East Carolina University
-          <span style={{ float: "right" }}>Greenville, NC</span>
-          <br />
-          Bachelor of Science - Criminal Justice | GPA: 3.7
-          <span style={{ float: "right" }}>Graduated: May 2019</span>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-30px", marginLeft: "20px" }}
-        >
-          - Dean’s List for multiple semesters consecutively
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-            marginTop: "-20px",
-          }}
-        >
-          Blue Line Aviation | Strenuous, Fast-Paced Aviation Program
-          <span style={{ float: "right" }}>Raleigh, NC</span>
-          <br />
-          Commercial Pilot's License and Certified Flight Instructor
-          <span style={{ float: "right" }}>Graduated: Mar. 2020</span>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-30px", marginLeft: "20px" }}
-        >
-          - Passed necessary oral, written, and practical tests to receive a
-          Commercial Pilot and Certified Flight Instructor License
-        </Card.Body>
-        <Card.Subtitle
-          className="resume-info"
-          style={{
-            fontSize: "22px",
-            textAlign: "left",
-            marginLeft: "25px",
-            borderBottom: "1px solid black",
-            fontWeight: "bolder",
-          }}
-        >
-          Skills
-        </Card.Subtitle>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginLeft: "8px", fontWeight: "bolder" }}
-        >
-          Languages and Tools:
-          <img className="thumbnail" src="Images/JavaScript-logo.png" alt="" />
-          <img className="thumbnail" src="Images/html.png" alt="" />
-          <img className="thumbnail" src="Images/css.png" alt="" />
-          <img className="thumbnail" src="Images/react.webp" alt="" />
-          <img className="thumbnail" src="Images/tailwind.png" alt="" />
-          <img className="thumbnail" src="Images/nodejs.png" alt="" />
-          <img className="thumbnail" src="Images/mongo.png" alt="" />
-          <img className="thumbnail" src="Images/vscode.png" alt="" />
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-            marginTop: "-20px",
-          }}
-        >
-          Executive Skills:
-          <span style={{ fontWeight: "normal", marginLeft: "10px" }}>
-            Critical Thinking, Problem-Solving, Leadership, Organization,
-            Troubleshooting
-          </span>
-        </Card.Body>
-        <Card.Subtitle
-          className="resume-info"
-          style={{
-            fontSize: "22px",
-            textAlign: "left",
-            marginLeft: "25px",
-            borderBottom: "1px solid black",
-            fontWeight: "bolder",
-          }}
-        >
-          Technical Projects
-        </Card.Subtitle>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginLeft: "8px", fontWeight: "bolder" }}
-        >
-          ReactWeather | Personal Project | <em>React/TailwindCSS</em>
-          <span style={{ float: "right" }}>Oct. 2022</span>
-          <br />
-          <Card.Link href="https://react-weather-app-eta-nine.vercel.app/">
-            Visit Website
-          </Card.Link>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-20px", marginLeft: "20px" }}
-        >
-          - Created a live weather application that uses an API call to get
-          various weather deatails for city chosen by the user. <br />- The user
-          can choose from the list of popular cities, search for a city anywhere
-          in the world, or allow the application to get the user's current
-          location to display weather data. <br />- Application shows toast
-          notifications using react-toastify to inform the user when the
-          application is getting the user's location and when the weather data
-          has been successfully loaded.
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginLeft: "8px", fontWeight: "bolder" }}
-        >
-          Connect Four Game | Team Leader | <em>JavaScript, HTML/CSS</em>
-          <span style={{ float: "right" }}>Mar. 2022</span>
-          <br />
-          <Card.Link href="https://github.com/KenzieAcademy-Students/teamwork-assessment-connect-four-jbarone96">
-            View on Github
-          </Card.Link>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-20px", marginLeft: "20px" }}
-        >
-          - Designed how a Connect Four game board displayed on the page with
-          the use of CSS properties to allow the board to look just like it
-          would in the real game. <br />- Effectively dealt with the possibility
-          of edge cases to prevent inaccuracy in the game board when displaying
-          the winning combinations and created an ideal way to determine the
-          winning combinations for the game using JavaScript functions. <br />-
-          Properly debugged and maneuvered around problems in code that would
-          cause blocks of code not to run in the correct fashion.
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-          }}
-        >
-          Jordan's Online Store | Project |{" "}
-          <em>JavaScript, HTML/CSS, React.Js, Express, Node.js, MongoDB</em>
-          <span style={{ float: "right" }}>Jul. 2022</span>
-          <br />
-          <Card.Link href="https://github.com/KenzieAcademy-Students/kenziecart-app-jbarone96">
-            View on Github
-          </Card.Link>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-20px", marginLeft: "20px" }}
-        >
-          - Developed an online store allowing users to fully interact with the
-          webpage and designed methods to allow users to place an order,
-          including entering billing and shipping addresses, credit-card
-          information and filling out an order form. <br />- Properly coded the
-          process of order submission that sends the order data to be stored in
-          the database in the proper JSON format for ease of reading through
-          order details on the back end. <br />- Enhanced the styling and format
-          of the webpage using React-Bootstrap with things such as Toasts,
-          Navbars and themes.
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-          }}
-        >
-          Top Eats | Capstone Project |{" "}
-          <em>React.js, Express, Node.js, MongoDB (Deployed Using AWS)</em>
-          <span style={{ float: "right" }}>Oct. 2022</span>
-          <br />
-          <Card.Link href="http://18.233.97.130/">Visit Website</Card.Link>
-        </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-20px", marginLeft: "20px" }}
-        >
-          - Developed an entire full-stack application from scratch with a team
-          of two other students within an Aglie/Scrum environment. <br />-
-          Properly used API calls to fetch data from an external API, process
-          that data along with proper state management to use the data
-          throughout the application. <br />- Utilization of React-Bootstrap,
-          React-Toastify and other frameworks to customize and show
-          notifications throughout the application.
-        </Card.Body>
-        <Card.Subtitle
-          className="resume-info"
-          style={{
-            fontSize: "22px",
-            textAlign: "left",
-            marginLeft: "25px",
-            borderBottom: "1px solid black",
-            fontWeight: "bolder",
-          }}
-        >
-          Relevant Work Experience
-        </Card.Subtitle>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-          }}
-        >
+        <Card.Subtitle className="resume-subtitle">Experience</Card.Subtitle>
+        <Card.Body className="experience-title">
+          <strong>Digital Producer</strong>
           <img
             className="company_1"
             src="Images/Belk_logo_2010.svg.png"
-            alt=""
+            alt="Belk Logo"
           />
-          <span style={{ float: "right" }}>Charlotte, NC (Remote)</span>
-          <br />
-          <em>Associate Digital Producer</em>
-          <span style={{ float: "right" }}>Nov. 2022 - Present</span>
+          <span style={{ float: "right" }}>
+            <em>Remote</em>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <strong>11/2022 - Current</strong>
+          </span>
         </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginTop: "-30px",
-            marginLeft: "20px",
-            marginBottom: "20px",
-          }}
-        >
-          - Manage the development of the Belk website homepage, shop pages, the
-          Belk mobile app, coupon pages and any special content projects using
-          HTML/CSS and JavaScript. <br />- Collaborate with Merchant, Content
-          Strategy and Design teams to schedule and prepare HTML files with
-          image links, assortment links, alt tags and tracking/reporting tags
-          for all promotions to upload and configure into the Content Management
-          System. <br />- Apply expertise across multiple specializations within
-          the job area as well as assist in preparing and scheduling all
-          promotional events, offers, product content, and functional test on
-          belk.com. <br />- Partner with eCommerce IT Support teams to ensure
-          all scheduled content is tested each week for accuracy and timeliness.
+        <Card.Body className="experience-list-items">
+          <ul>
+            <li>
+              Utilized <strong>React</strong> to create a "stories" feature
+              similar to Instagram and successfully implemented on the Belk
+              mobile application leading to a 29% increase in sales since
+              launch.
+            </li>
+            <li>
+              Utilized <strong>HTML</strong> and <strong>CSS</strong> to
+              construct SEO web pages using various CSS styles that generated a
+              34% increase in website traffic growth by utilizing SEO best
+              practices in content creation.
+            </li>
+            <li>
+              Collaborated with creative teams for the development of visually
+              appealing and engaging digital assets while streamlining
+              production processes for increased efficiency and optimized
+              workflows.
+            </li>
+            <li>
+              Enhanced user experience by developing and implementing innovative
+              digital content strategies.
+            </li>
+            <li>
+              Made use of project management software to maintain clear
+              communication among team members.
+            </li>
+            <li>
+              Managed the development of the Belk homepage, shop category pages,
+              Belk mobile application and coupon pages through the use of{" "}
+              <strong>HTML/CSS</strong>, <strong>JavaScript</strong> and{" "}
+              <strong>React</strong>.
+            </li>
+          </ul>
         </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{
-            textAlign: "left",
-            marginLeft: "8px",
-            fontWeight: "bolder",
-          }}
-        >
-          <img className="company_2" src="Images/Kenzie.png" alt="" />
-          <span style={{ float: "right" }}>Indianapolis, IN (Remote)</span>
-          <br />
-          <em>Software Development Coach</em>
-          <span style={{ float: "right" }}>Oct. 2022 - Present</span>
+        <Card.Body className="experience-title">
+          <strong>Software Engineering Teaching Assistant</strong>
+          <img
+            className="company_2"
+            src="Images/Kenzie.png"
+            alt="Kenzie Academy Logo"
+          />
+          <span style={{ float: "right" }}>
+            <em>Remote</em>
+            &nbsp;&nbsp;&nbsp;&nbsp; <strong>10/2022 - 09/2023</strong>
+          </span>
         </Card.Body>
-        <Card.Body
-          className="resume-info"
-          style={{ textAlign: "left", marginTop: "-30px", marginLeft: "20px" }}
-        >
-          - Facilitated new and intermediate learners primarily with JavaScript
-          and React.js as well as troubleshooting any errors in their code and
-          guiding the learner in the correct direction to fix those errors.{" "}
-          <br />- Effectively graded any learner assignments and gave
-          constructive and elaborate feedback regarding the assignment including
-          things that the learner did well with and some things that might need
-          a little more attention. <br />- Hosting one on one meetings and
-          huddles with students to assist with any problems or issues occurring
-          within their code or collaborating and finding ways to improve or
-          grasp certain concepts.
+        <Card.Body className="experience-list-items">
+          <ul>
+            <li>
+              Guided and mentored new and aspiring software developers,
+              fostering their coding skills and providing valuable insights and
+              support throughout their educational journey, ensuring they are
+              well-prepared for careers in the tech industry.
+            </li>
+            <li>
+              Assisted teachers with classroom management and classroom
+              behavior, creating a positive learning atmosphere conducive to
+              academic success.
+            </li>
+            <li>
+              Helped with grading assignments and tests, providing constructive
+              feedback to students based on results.
+            </li>
+            <li>
+              Facilitated new and intermediate students, primarily with{" "}
+              <strong>JavaScript</strong>, <strong>React</strong>,{" "}
+              <strong>Node</strong> and <strong>Express</strong>.
+            </li>
+          </ul>
         </Card.Body>
-        <Card.Body className="resume-info">
+        <Card.Subtitle className="resume-subtitle">Projects</Card.Subtitle>
+        <Card.Body className="project-list-items">
+          <Card.Link href="https://my-portfolio-beta-pink.vercel.app/">
+            <strong style={{ marginLeft: "14px" }}>My Portfolio</strong>
+          </Card.Link>
+          <ul>
+            <li>
+              Created a professional portfolio to highlight some of my front-end
+              development skills and to showcase my skills using{" "}
+              <strong>React</strong> with different frameworks.
+            </li>
+          </ul>
+          <Card.Link href="https://react-weather-app-eta-nine.vercel.app/">
+            <strong style={{ marginLeft: "14px" }}>React Weather</strong>
+          </Card.Link>
+          <ul>
+            <li>
+              Created a weather application that utilizes an API call to get
+              various weather conditions and details for a city selected by the
+              user.
+            </li>
+            <li>
+              The user can choose from the predetermined list of popular cities,
+              search for a city anywhere in the world or allow the application
+              to use the user's current location to display weather data.
+            </li>
+            <li>
+              Utilized toast notifications using React Toastify to inform the
+              user when the application is awaiting the return data from the API
+              call and shows a success notification when the weather data has
+              been successfully loaded.
+            </li>
+          </ul>
+        </Card.Body>
+        <Card.Subtitle className="resume-subtitle">Education</Card.Subtitle>
+        <Card.Body className="experience-title">
+          <strong>Certificate of Completion</strong>
+          <span style={{ float: "right" }}>
+            <em>Remote</em>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>01/2022 - 10/2022</strong>
+          </span>
+          <ul className="education-list-items">
+            <li>Full Stack Web Development Program</li>
+          </ul>
+        </Card.Body>
+        <Card.Body className="experience-title" style={{ marginTop: "-20px" }}>
+          <strong>Bachlelor of Science</strong>
+          <span style={{ float: "right" }}>
+            <em>Greenville, NC</em>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>08/2017 - 05/2019</strong>
+          </span>
+          <ul className="education-list-items">
+            <li>Major in Criminal Justice</li>
+          </ul>
+        </Card.Body>
+        <Card.Body className="download">
           <Button
             variant="primary"
             href="https://drive.google.com/uc?export=download&id=1052RO1JvMNezDqPVgsSO857lKzNnqbQG"

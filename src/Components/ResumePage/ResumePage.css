@@ -5,63 +5,93 @@
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 20px 5px rgba(240, 248, 255, 0.626);
-  background-color: aliceblue!important;
+  background-color: aliceblue !important;
   padding: 0px 60px;
 }
 
 .resume-title {
-  padding: 10px;
+  padding-top: 10px;
   font-family: Rubik;
   margin: auto;
 }
 
+.resume-header {
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.header-thumbnail {
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+  margin-bottom: 2px;
+}
+
+.resume-subtitle {
+  color: rgb(17, 85, 204);
+  font-family: Rubik;
+  font-weight: bolder;
+  font-size: 22px;
+  margin: auto;
+  width: 93%;
+  margin-top: -20px;
+  border-bottom: 1px solid black;
+}
+
+.experience-title {
+  font-size: 14px;
+  margin-top: -10px;
+  width: 97%;
+  margin: auto;
+}
+
 .resume-info {
- color: black;
- font-family: Rubik;
- margin: auto;
- text-align: center;
- width: 100%;
+  font-family: Rubik;
+  font-size: 10px;
+  text-align: left;
+  width: 100%;
+  margin-top: -20px;
 }
 
-.thumbnail {
-  height: 50px;
-  width: 50px;
-  margin: 0px 10px;
+.list-items {
+  font-size: 15px;
 }
 
-.thumbnail:nth-child(2) {
-  height: 58px;
-  width: 60px;
+.experience-list-items {
+  font-size: 14px;
+  margin: auto;
 }
 
-.thumbnail:nth-child(3) {
-  width: 40px;
+.project-list-items {
+  font-size: 14px;
+  margin: auto;
 }
 
-.thumbnail:nth-child(6) {
-  width: 75px;
-}
-
-.thumbnail:nth-child(7) {
-  width: 130px;
-  height: 40px;
+.education-list-items {
+  font-size: 14px;
+  margin: auto;
 }
 
 .company_1 {
-  position: absolute;
+  display: flex;
   width: 90px;
   height: 30px;
-  bottom: 575px;
+  margin: auto;
+  margin-top: -25px;
+  margin-bottom: -30px;
 }
 
 .company_2 {
-  position: absolute;
-  width:175px;
+  display: flex;
+  width: 175px;
   height: 85px;
-  margin-left: -10px;
-  bottom: 240px;
+  margin: auto;
+  margin-top: -55px;
+  margin-bottom: -50px;
 }
 
-.floater {
-  justify-content: right;
+.download {
+  margin: auto;
+  padding-top: 3px;
 }

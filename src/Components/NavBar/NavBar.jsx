@@ -12,7 +12,7 @@ function NavBar() {
     <>
       <Navbar variant="dark" className="nav">
         <Container>
-          <Navbar.Brand className="title" style={{ fontSize: "24px" }}>
+          <Navbar.Brand className="title" style={{ fontSize: "16px" }}>
             <Nav>
               <Link className="nav-link" to="/">
                 Jordan's Portfolio

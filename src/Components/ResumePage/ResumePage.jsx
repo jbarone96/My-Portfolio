@@ -94,7 +94,7 @@ function ResumePage() {
           </ul>
         </Card.Body>
         <Card.Body className="experience-title">
-          <strong>Software Engineering Teaching Assistant</strong>
+          <strong>Software Engineering T.A.</strong>
           <img
             className="company_2"
             src="Images/Kenzie.png"

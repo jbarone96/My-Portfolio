@@ -96,3 +96,57 @@
   margin: auto;
   padding-top: 3px;
 }
+
+@media (max-width: 640px) {
+  .resume-card {
+    font-size: 0.8rem;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .resume-header {
+    font-size: 0.7rem;
+  }
+
+  .experience-title {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .experience-title:nth-of-type(2) {
+    font-size: 0.5rem;
+  }
+
+  .company_1 {
+    visibility: hidden;
+  }
+
+  .company_2 {
+    visibility: hidden;
+  }
+}
+@media (max-width: 960px) {
+  .resume-card {
+    font-size: 12px;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .company_1 {
+    visibility: hidden;
+  }
+
+  .company_2 {
+    visibility: hidden;
+  }
+}
+@media (max-width: 1100px) {
+  .resume-card {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+  }
+}

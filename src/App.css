@@ -1,17 +1,37 @@
 @font-face {
-  font-family: 'Rubik';
-  src: local('Rubik'), url('./Fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  font-family: "Rubik";
+  src: local("Rubik"),
+    url("./Fonts/Rubik-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto Mono';
-  src: local('Roboto Mono'), url('./Fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+  font-family: "Roboto Mono";
+  src: local("Roboto Mono"),
+    url("./Fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
 }
 
 html {
   font-size: 100%;
 }
 
-@media (min-width: 640px) { body {font-size:1rem;} }
-@media (min-width:960px) { body {font-size:1.2rem;} }
-@media (min-width:1100px) { body {font-size:1.5rem;} }
+@media (max-width: 640px) {
+  body {
+    font-size: 1rem;
+    padding: 10px;
+    margin: auto;
+  }
+}
+@media (max-width: 960px) {
+  body {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: auto;
+  }
+}
+@media (max-width: 1100px) {
+  body {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: auto;
+  }
+}

@@ -27,7 +27,7 @@ function HomePage() {
               👋🏽
             </span>
           </h1>
-          <h2 className="intro">A Software Developer|</h2>
+          <h2 className="intro">A Passionate Software Developer|</h2>
         </div>
       </div>
     </>

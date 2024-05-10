@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { BiHomeAlt } from "react-icons/bi";
 import { AiOutlineUser } from "react-icons/ai";
 import { IoDocumentTextOutline } from "react-icons/io5";
-import { HiOutlineMail, HiOutlineCollection } from "react-icons/hi";
+import { HiOutlineCollection } from "react-icons/hi";
 import "../NavBar/NavBar.css";
 
 function NavBar() {
@@ -12,7 +12,7 @@ function NavBar() {
     <>
       <Navbar variant="dark" className="nav">
         <Container>
-          <Navbar.Brand className="title" style={{ fontSize: "24px" }}>
+          <Navbar.Brand className="title">
             <Nav>
               <Link className="nav-link" to="/">
                 Jordan's Portfolio
@@ -36,10 +36,10 @@ function NavBar() {
               <AiOutlineUser className="icon" />
               About
             </Link>
-            <Link className="nav-link" to="/Contact">
+            {/* <Link className="nav-link" to="/Contact">
               <HiOutlineMail className="icon" />
               Contact
-            </Link>
+            </Link> */}
           </Nav>
         </Container>
       </Navbar>

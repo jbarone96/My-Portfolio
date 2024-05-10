@@ -36,3 +36,37 @@
   width: 800px;
   border-radius: 10px;
 }
+
+@media (max-width: 640px) {
+  body {
+    font-size: 1rem;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .swiper {
+    height: 350px;
+  }
+}
+
+@media (max-width: 960px) {
+  body {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: auto;
+  }
+  .swiper {
+    height: 350px;
+  }
+}
+
+@media (max-width: 1100px) {
+  body {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: auto;
+  }
+  .swiper {
+    height: 350px;
+  }
+}

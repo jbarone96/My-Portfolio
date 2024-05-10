@@ -109,13 +109,13 @@
     font-size: 0.7rem;
   }
 
+  .resume-subtitle {
+    font-size: 1rem;
+  }
+
   .experience-title {
     font-size: 0.9rem;
     width: 100%;
-  }
-
-  .experience-title:nth-of-type(2) {
-    font-size: 0.5rem;
   }
 
   .company_1 {
